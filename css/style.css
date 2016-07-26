@@ -1,0 +1,53 @@
+
+*{
+	border:0;
+	margin:0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: helvetica;
+	font-size:100%;
+	line-height: 1.5
+}
+
+p{margin:0 0 24px 0;}
+
+.parallas, .main, .texto{
+	margin:0 auto;
+}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size:  cover;
+	height:400px;
+	max-width: 100%;
+	position: relative;
+}
+
+.parallax h2{
+	color:white;
+	font-size: 2.8rem;
+	font-weight: bold;
+	position: absolute;
+	top:35%;
+	left: 35%
+}
+.img-uno{
+	background-image: url('../img/rain-1479303_640.jpg');
+}
+
+.img-dos{
+	background-image:url("../img/lighter-1363095_640.jpg");
+}
+
+.img-tres{
+	background-image:url("../img/dock-1365387_640.jpg");
+}
+
+.texto{
+	padding:5%;
+	width: 90%;
+}
