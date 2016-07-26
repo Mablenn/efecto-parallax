@@ -6,12 +6,16 @@
 }
 
 body{
+	color:rgb(160,160,160);
 	font-family: helvetica;
 	font-size:100%;
-	line-height: 1.5
+	line-height: 1.3
 }
 
-p{margin:0 0 24px 0;}
+p{
+	font-size: 1.4rem;
+	margin:0 0 24px 0;
+}
 
 .parallas, .main, .texto{
 	margin:0 auto;
@@ -28,12 +32,12 @@ p{margin:0 0 24px 0;}
 }
 
 .parallax h2{
-	color:white;
+	color:#fff;
 	font-size: 2.8rem;
 	font-weight: bold;
 	position: absolute;
 	top:35%;
-	left: 35%
+	left: 28%
 }
 .img-uno{
 	background-image: url('../img/rain-1479303_640.jpg');
