@@ -1,8 +1,9 @@
 
 *{
 	border:0;
-	margin:0;
 	box-sizing: border-box;
+	margin:0;
+	padding: 0;
 }
 
 body{
@@ -14,16 +15,36 @@ body{
 
 p{
 	font-size: 1.4rem;
-	margin:0 0 24px 0;
+	margin:0 0 24px 0
 }
 
-.parallas, .main, .texto{
-	margin:0 auto;
+header{
+	left: 35%;
+	position: fixed;
+	top:2rem;
+	width: 25%;
+	z-index: 1111
 }
 
-.arriba, .centro, .abajo{
-	border:2px solid tomato;
+nav ul{
+	display: table;
+	list-style-type: none;
+	width:100%;
 }
+
+nav li{
+	display: table-cell;
+	text-align: center;
+}
+
+nav li a{
+	border:1px solid #fff;
+	color:tomato;
+	font-size: 2rem;
+	padding: 10px;
+	text-decoration: none;
+}
+.parallas, .main, .texto{margin:0 auto}
 
 .parallax{
 	background-attachment: fixed;
@@ -46,17 +67,11 @@ p{
 	width: 80%;
 }
 	
-.img-uno{
-	background-image: url('../img/rain-1479303_640.jpg');
-}
+.img-uno{background-image: url('../img/rain-1479303_640.jpg')}
 
-.img-dos{
-	background-image:url("../img/lighter-1363095_640.jpg");
-}
+.img-dos{background-image:url("../img/lighter-1363095_640.jpg")}
 
-.img-tres{
-	background-image:url("../img/dock-1365387_640.jpg");
-}
+.img-tres{background-image:url("../img/dock-1365387_640.jpg")}
 
 .texto{
 	padding:5%;
