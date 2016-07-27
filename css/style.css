@@ -21,6 +21,10 @@ p{
 	margin:0 auto;
 }
 
+.arriba, .centro, .abajo{
+	border:2px solid tomato;
+}
+
 .parallax{
 	background-attachment: fixed;
 	background-position: center;
@@ -31,14 +35,17 @@ p{
 	position: relative;
 }
 
-.parallax h2{
+.texto-interior{
 	color:#fff;
-	font-size: 2.8rem;
+	font-size: 2rem;
 	font-weight: bold;
+	left: 10%;
 	position: absolute;
-	top:35%;
-	left: 28%
+	text-align: center;
+	top:40%;
+	width: 80%;
 }
+	
 .img-uno{
 	background-image: url('../img/rain-1479303_640.jpg');
 }
